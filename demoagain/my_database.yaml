@@ -1,0 +1,20 @@
+---
+:foo: bar
+:greeting:
+- Hello
+- World
+:amount: 1.56
+:salary: 200000
+:furniture:
+- Chair
+- Table
+:last_accessed: 2020-01-17 13:10:59.820001000 -05:00
+:children:
+  :george: 12
+  :jane: 13
+  :tammy: 0
+:creature: !ruby/object:Creature
+  name: Brandeis
+  schools:
+  - Science
+  - Business
