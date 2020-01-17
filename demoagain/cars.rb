@@ -5,8 +5,8 @@ require_relative "./car.rb"
 require_relative "./police.rb"
 
 g = Garage.new("Ten")
-l1 = Level.new("1", 150)
-l2 = Level.new("2", 91)
+l1 = Level.new("1", 91)
+l2 = Level.new("2", 150)
 g.add_level(l1)
 g.add_level(l2)
 
