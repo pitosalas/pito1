@@ -1,2 +1,3 @@
 class Police < Car
+
 end

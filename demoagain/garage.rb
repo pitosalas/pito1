@@ -15,6 +15,7 @@ class Garage
         next
       end
       level.add car
+      break
     end
   end
 

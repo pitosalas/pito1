@@ -9,6 +9,6 @@ class Car
   end
 
   def report
-    puts "Car #{@name}"
+    puts "#{self.class.to_s} car: #{@name}"
   end
 end
