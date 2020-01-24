@@ -1,0 +1,15 @@
+<h3>All Countries</h3>
+<% if @countries.nil? %>
+	"none yet!"
+	<br>
+	<br>
+<% else %>
+	<ul>
+	<% @countries.each do |country| %>
+		<li>
+			<%= country.name %>
+		</li>
+	<% end %>
+	</ul>
+<% end %>
+<a href="/">Back to Home</a>
